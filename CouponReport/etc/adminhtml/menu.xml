@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Venture7_CouponReport::coupons"
+             title="Coupon Report"
+             translate="title"
+             module="Venture7_CouponReport"
+             sortOrder="90"
+             parent="Magento_Reports::report_salesroot"
+             action="reports/coupon/coupons"
+             resource="Venture7_CouponReport::coupons"/>
+    </menu>
+</config>
